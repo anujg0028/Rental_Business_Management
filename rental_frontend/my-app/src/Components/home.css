@@ -1,0 +1,22 @@
+.custom-hover:hover {
+    background-color: white;
+    /* Add your desired custom color for the hover effect here (e.g., pink) */
+    cursor: pointer;
+    /* Optional: Change the cursor to a pointer when hovering over the rows */
+}
+
+.button-hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    /* Adjust shadow values as desired */
+}
+
+.custom-button {
+    /* Add your existing button styles here */
+    color: white !important; /* Set the text color to black */
+}
+
+.card-hover {
+    box-shadow: 0 20px 20px  grey;
+    /* Adjust shadow values as desired */
+}
+

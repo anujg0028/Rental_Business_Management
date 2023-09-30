@@ -1,0 +1,90 @@
+
+.button-box {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  background: white;
+  /* transition: background-color 0.3s; */
+}
+
+.button-box a {
+  color: hwb(0 3% 91%);
+  /* Set the text color for the buttons */
+  text-decoration: none;
+  /* Remove underline from the links */
+  font-size: 12px;
+  /* Adjust the font size of the buttons */
+}
+
+/*when button is non active [text-color]   */
+.button-box a.nav-link {
+  color: black;
+  /* Set the text color to black for these links */
+}
+
+.navbar {
+  padding-top: 5px;
+  /* Adjust the top padding as desired */
+  padding-bottom: 7px;
+  /* Adjust the bottom padding as desired */
+  min-height: 60px;
+  background: white;
+  /* Adjust the height of the navbar as desired */
+}
+
+/* Update the height of the logo image to make it smaller */
+.navbar-brand img {
+  height: 40px;
+  /* Adjust the height of the logo image as desired */
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: black;
+  background: #e1ebf5;
+  font-weight: 700;
+}
+
+.active-link {
+  color: black; /* Set the text color for active links */
+  font-weight: 400; /* Make the text bold for active links */
+  background: white; /* Set the background color for active links */
+}
+
+/* Flexbox styles for dropdown content */
+.dropdown-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Container for owner and user names */
+.names-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+/* Styling for owner name */
+.owner-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Styling for user name */
+.user-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.owner-name1 {
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+
+/* Styling for user name */
+.user-name1 {
+  font-size: 13px;
+  color: black;
+}

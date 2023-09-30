@@ -1,0 +1,59 @@
+/* Slide button container */
+.slide-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* Text inside the slider */
+.slider-text {
+  font-size: 12px; /* Adjust the font size to make the text smaller */
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap; /* Prevent the text from wrapping to the next line */
+  margin-right: -18px; /* Add some space between the text and the slider */
+}
+  
+  /* Slider style */
+  .slider {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px; /* Half of the height to make it round */
+    margin-right: 8px;
+    position: relative;
+    transition: background-color 0.4s;
+  }
+  
+  /* Round slider handle */
+  .slider:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+  }
+  
+  /* Visually hide the checkbox */
+  .slide-button input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* When checked, toggle the slider background color and position of the handle */
+  .slide-button input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  /* Target the slider handle when the input checkbox is checked */
+  .slide-button input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  

@@ -1,0 +1,29 @@
+.blur-background {
+  backdrop-filter: blur(10px);
+  /* Adjust the blur value as desired */
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Set the background color and opacity */
+}
+
+/* Add these styles to your existing CSS file or section */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: gray;
+  font-weight: 500;
+  max-width: 10%;
+}
+
+.divider-text {
+  color: gray;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
